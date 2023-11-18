@@ -50,5 +50,11 @@ This package comes with an installer that makes things extremely easy:
 ```bash
 ./installer.sh
 ```
+## Removing the repositories from your system
+To remove all of the i2p ppa repositories from your system, run:
 
+```bash
+rm -f \
+/etc/apt/sources.list.d/i2p.list
+```
 Once the installer is complete, you will be able to use both the anonsurf and pandora modules.
